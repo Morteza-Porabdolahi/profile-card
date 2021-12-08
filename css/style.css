@@ -58,6 +58,11 @@ body{
 .plan a{
     float: right;
     margin-top: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.plan a:hover{
+    color: rgb(255, 0, 106);
 }
 button{
     border: none;
