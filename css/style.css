@@ -1,0 +1,77 @@
+*{
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #E0E8FF url(../images/pattern-background-desktop.svg) no-repeat;
+}
+.container{
+    width: 450px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+.img-container{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.discription{
+    width: 350px;
+}
+.title{
+    padding: 30px 0;
+}
+.title p {
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.title h1{
+    font-size: 26px;
+    color: hsl(223, 47%, 23%);
+}
+.plan{
+    background-color: #F5F7FF;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.music-img{
+    float: left;
+    margin-right: 25px;
+}
+.plan-title{
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+.plan-title p{
+    color: hsl(224, 23%, 55%);
+}
+.plan a{
+    float: right;
+    margin-top: 10px;
+}
+button{
+    border: none;
+    background-color: #fff;
+}
+.prc-button{
+    width: 100%;
+    background-color: #3829E0;
+    padding: 14px 0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.cancel-button{
+    color: hsl(223, 47%, 23%);
+    font-size: 17px;
+    margin-bottom: 40px;
+}
