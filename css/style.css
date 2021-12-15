@@ -5,9 +5,6 @@
     clear: both;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #E0E8FF url(../images/pattern-background-desktop.svg) no-repeat;
     height:100vh ;
@@ -82,9 +79,4 @@ button{
     color: hsl(223, 47%, 23%);
     font-size: 17px;
     margin-bottom: 40px;
-}
-@media screen and only (max-width: 430px){
-    .profile-card{
-        width:100%;
-    }
 }
