@@ -83,3 +83,8 @@ button{
     font-size: 17px;
     margin-bottom: 40px;
 }
+@media screen and only (max-width: 430px){
+    .profile-card{
+        width:100%;
+    }
+}
